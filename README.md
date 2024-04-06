@@ -20,6 +20,7 @@ Video (my tweet): https://twitter.com/verylowfreq/status/1776414271632806100/
  - **SlimeVR server v0.12.0 rc.1** or later
  - SlimeVR tracker over ESP-NOW
    - Use my fork. One direction transmission (sensor to dongle; no pairing)
+   - https://github.com/verylowfreq/SlimeVR-Tracker-ESP-ESPNOW
  - M5AtomS3 (ESP32-S3)
    - Should be work with generic ESP32-S3 board (except NeoPixel on GPIO 35)
  - Arduino IDE / Board: **arduino-esp32**
