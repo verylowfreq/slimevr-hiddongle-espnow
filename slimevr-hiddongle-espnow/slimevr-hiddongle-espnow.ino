@@ -149,9 +149,10 @@ void OnDataRecv(const uint8_t *mac_addr, const uint8_t *data, int data_len) {
 
     RotationData_t data = {
       .sensor_id = sensor_id,
-      .x = x,
-      .y = y,
-      .z = z,
+      // WORKAROUND: Change axis to work propery. I don't know why...
+      .x = z,
+      .y = x,
+      .z = y,
       .w = w
     };
     rotation_data[sensor_id & 0x0f] = data;
